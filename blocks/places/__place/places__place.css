@@ -1,0 +1,27 @@
+.places__place {
+  display: grid;
+  grid-template-areas: 
+  "title link"
+  "picture paragraph"
+  "rectangle paragraph"
+  ". paragraph";
+  gap: 48px 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__place {
+    grid-template-areas: 
+    "title"
+    "link"
+    "picture"
+    "paragraph"
+    "rectangle";
+    gap: 30px 0;
+  }
+}

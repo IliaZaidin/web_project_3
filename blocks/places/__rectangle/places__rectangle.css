@@ -1,0 +1,14 @@
+.places__rectangle {
+  grid-area: rectangle;
+  width: 248px;
+  height: 48px;
+  background-color: #0278FE;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.places__rectangle:hover {
+  background-color: #0063D2;
+}

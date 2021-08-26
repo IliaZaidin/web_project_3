@@ -1,0 +1,10 @@
+.places__paragraph-wrapper {
+  grid-area: paragraph;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}

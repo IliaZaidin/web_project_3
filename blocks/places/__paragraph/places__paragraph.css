@@ -1,0 +1,23 @@
+.places__paragraph {
+  margin: 0;
+  padding: 0;
+  max-width: 484px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .places__paragraph {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__paragraph {
+    max-width: 288px;
+  }
+}
