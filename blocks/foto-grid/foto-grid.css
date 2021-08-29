@@ -1,14 +1,14 @@
 @import url(./__item/foto-grid__item.css);
 
 .foto-grid {
-  max-width: 1184px;
   display: grid;
+  max-width: 1184px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 16px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1280px) {
   .foto-grid {
     max-width: 720px;
     grid-template-columns: repeat(2, 1fr);
@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .foto-grid {
     max-width: 288px;
     grid-template-columns: repeat(1, 1fr);

@@ -1,25 +1,9 @@
-
 @import url(./__title/intro__title.css);
 @import url(./__paragraph/intro__paragraph.css);
 
 .intro {
-  max-width: 785px;
+  max-width: 100%;
   margin: 92px 0 148px;
-  align-self: flex-start;
-}
-
-@media screen and (max-width: 768px) {
-  .intro {
-    max-width: 720px;
-    margin-left: 24px;
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro {
-    max-width: 288px;
-    margin-left: 16px;
-    max-width: 288px;
-  }
+  display: flex;
+  flex-direction: column;
 }

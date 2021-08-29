@@ -11,9 +11,3 @@
   text-transform: uppercase;
   color: #AAAAAA;
 }
-
-@media screen and (max-width: 320px) {
-  .places__artist {
-    max-width: 288px;
-  }
-}

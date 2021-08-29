@@ -12,7 +12,7 @@
   }
 } */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .header__logo-ver-bar {
     margin: 4.46px 15.62px 0 6.69px;
     width: 1.49px;

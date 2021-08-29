@@ -1,9 +1,7 @@
+@import url(./__wrapper/page__wrapper.css);
+
 .page {
-  padding: 0;
-  margin: 0 auto;
   background-color: #2A2C2F;
-  max-width: 1280px;
-  min-width: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -8,9 +8,9 @@
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
-  font-weight: 700;
+  font-weight: 600;
   font-display: swap;
-  src: url("../fonts/Inter-Bold.woff2") format("woff2");
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2");
 }
 @font-face {
   font-family: 'Inter';

@@ -19,3 +19,15 @@
   font-size: 16px;
   line-height: 163%;
 }
+
+@media screen and (max-width: 1280px) {
+  .intro__paragraph {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__paragraph {
+    max-width: 288px;
+  }
+}

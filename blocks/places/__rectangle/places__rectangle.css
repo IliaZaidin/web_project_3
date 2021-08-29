@@ -1,6 +1,6 @@
 .places__rectangle {
   grid-area: rectangle;
-  width: 248px;
+  max-width: 248px;
   height: 48px;
   background-color: #0278FE;
   border-radius: 4px;
@@ -11,4 +11,10 @@
 
 .places__rectangle:hover {
   background-color: #0063D2;
+}
+
+@media screen and (max-width: 768px) {
+  .places__rectangle {
+    max-width: 288px;
+  }
 }

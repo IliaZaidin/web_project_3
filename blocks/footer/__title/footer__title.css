@@ -10,3 +10,9 @@
   text-align: center;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__title {
+    line-height: 100%;
+  }
+}
