@@ -1,0 +1,21 @@
+.header__logo-ver-bar {
+  margin: 6px 19px 0 11px;
+  width: 2px;
+  height: 26px;
+  background: #2A2C2F;
+  position: absolute;
+}
+
+/* @media screen and (max-width: 768px) {
+  .header__logo-ver-bar {
+    margin: 6px 21px 0 9px;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .header__logo-ver-bar {
+    margin: 4.46px 15.62px 0 6.69px;
+    width: 1.49px;
+    height: 19.33px;
+  }  
+}
