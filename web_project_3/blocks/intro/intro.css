@@ -1,0 +1,9 @@
+@import url(./__title/intro__title.css);
+@import url(./__paragraph/intro__paragraph.css);
+
+.intro {
+  max-width: 100%;
+  margin: 92px 0 148px;
+  display: flex;
+  flex-direction: column;
+}

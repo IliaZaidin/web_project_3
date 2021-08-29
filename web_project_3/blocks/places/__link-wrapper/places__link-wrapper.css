@@ -1,0 +1,11 @@
+.places__link-wrapper {
+  grid-area: link;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+}
