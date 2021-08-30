@@ -1,5 +1,6 @@
 .cover__wrapper {
-  position: absolute;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
   display: flex;
   flex-direction: column;
   align-items: center;
