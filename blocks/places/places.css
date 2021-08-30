@@ -1,13 +1,4 @@
-@import url(./__place/places__place.css);
-@import url(./__link-wrapper/places__link-wrapper.css);
-@import url(./__title/places__title.css);
-@import url(./__artist/places__artist.css);
-@import url(./__artist-link/places__artist-link.css);
-@import url(./__picture/places__picture.css);
-@import url(./__paragraph-wrapper/places__paragraph-wrapper.css);
-@import url(./__paragraph/places__paragraph.css);
-@import url(./__rectangle/places__rectangle.css);
-@import url(./__buy/places__buy.css);
+
 
 .places {
   margin: 92px 0;

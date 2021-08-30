@@ -1,10 +1,46 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__wrapper/page__wrapper.css);
+
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo-hor-bar/header__logo-hor-bar.css);
+@import url(../blocks/header/__logo-ver-bar/header__logo-ver-bar.css);
+@import url(../blocks/header/__logo-title/header__logo-title.css);
+
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__paragraph/intro__paragraph.css);
+
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__title/lead__title.css);
+
 @import url(../blocks/foto-grid/foto-grid.css);
+@import url(../blocks/foto-grid/__item/foto-grid__item.css);
+
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__place/places__place.css);
+@import url(../blocks/places/__link-wrapper/places__link-wrapper.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__artist/places__artist.css);
+@import url(../blocks/places/__artist-link/places__artist-link.css);
+@import url(../blocks/places/__picture/places__picture.css);
+@import url(../blocks/places/__paragraph-wrapper/places__paragraph-wrapper.css);
+@import url(../blocks/places/__paragraph/places__paragraph.css);
+@import url(../blocks/places/__rectangle/places__rectangle.css);
+@import url(../blocks/places/__buy/places__buy.css);
+
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__wrapper/cover__wrapper.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__rectangle/cover__rectangle.css);
+@import url(../blocks/cover/__buy/cover__buy.css);
+
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);

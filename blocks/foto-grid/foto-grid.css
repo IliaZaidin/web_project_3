@@ -1,5 +1,3 @@
-@import url(./__item/foto-grid__item.css);
-
 .foto-grid {
   display: grid;
   max-width: 1184px;
