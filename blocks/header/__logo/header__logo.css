@@ -1,15 +1,16 @@
 .header__logo {
-  margin-bottom: 20px;
-  width: 32px;
-  height: 32px;
-  background: #0278FE;
-  border-radius: 2px;
+  max-width: 271px;
+  margin: 34px 0 92px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
   .header__logo {
-    margin-bottom: 16.55px;
-    width: 23.8px;
-    height: 23.8px;
+    margin: 34px 0 88px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__logo {
+    max-width: 200px;
+    margin: 20px 0 50.54px;
   }
 }

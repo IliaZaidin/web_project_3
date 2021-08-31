@@ -1,10 +1,29 @@
 .places__buy {
   margin: 0;
-  font-family: Inter;
+  grid-area: buy;
+  width: 248px;
+  height: 48px;
+  background-color: #0278FE;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: Inter, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.places__buy:hover {
+  background-color: #0063D2;
+}
+
+@media screen and (max-width: 767px) {
+  .places__buy {
+    width: 288px;
+  }
 }

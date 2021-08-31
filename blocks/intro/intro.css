@@ -1,6 +1,24 @@
 .intro {
-  max-width: 100%;
-  margin: 92px 0 148px;
+  max-width: 1184px;
+  margin: 92px 0 118px 100px;
+  align-self: flex-start;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    max-width: 720px;
+    margin: 88px 0;
+    align-self: inherit;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    max-width: 288px;
+    margin: 64px 0 90px;
+    align-self: inherit;
+  }
 }

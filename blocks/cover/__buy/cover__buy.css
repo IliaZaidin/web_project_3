@@ -1,9 +1,18 @@
 .cover__buy {
-font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 100%;
-color: #FFFFFF;
-text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 137px;
+  height: 48px;
+  background: #0278FE;
+  border-radius: 4px;
+  z-index: 1;
+
+  font-family: Inter, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #FFFFFF;
+  text-decoration: none;
 }

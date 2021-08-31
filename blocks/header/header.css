@@ -1,20 +1,6 @@
 .header {
-  margin: 34px 0 92px;
-  max-width: 271px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-@media screen and (max-width: 1280px) {
-  .header {
-    margin: 34px 0 88px;
-  }  
-}
-
-@media screen and (max-width: 768px) {
-  .header {
-    margin: 20px 0 50.54px;
-    max-width: 200px;
-  }
 }

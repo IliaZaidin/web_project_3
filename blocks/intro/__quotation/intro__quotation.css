@@ -1,23 +1,24 @@
-.places__artist-link {
+.intro__quotation {
   margin: 0;
   padding: 0;
-  max-width: 456px;
+  max-width: 690px;
   font-family: Inter, serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 122%;
+  font-size: 24px;
+  line-height: 142%;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 1279px) {
-  .places__artist-link {
-    max-width: 352px;
+  .intro__quotation {
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .places__artist-link {
+  .intro__quotation {
     max-width: 288px;
+    line-height: 125%;
   }
 }
