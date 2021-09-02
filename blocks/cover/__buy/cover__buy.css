@@ -16,3 +16,7 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+
+.cover__buy:hover {
+  background-color: #0063D2;
+}

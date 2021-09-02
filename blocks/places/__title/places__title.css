@@ -9,6 +9,7 @@
   font-size: 72px;
   line-height: 106%;
   color: #FFFFFF;
+  text-align: left;
 }
 
 @media screen and (max-width: 1279px) {
@@ -24,5 +25,7 @@
     max-width: 288px;
     font-size: 32px;
     line-height: 109%;
+    justify-self: flex-start;
+    margin-left: 16px;
    }
 }
