@@ -4,3 +4,7 @@
   grid-template-columns: auto;
   grid-template-rows: auto;
 }
+
+.cover:hover .cover__image {
+  opacity: .2;
+}

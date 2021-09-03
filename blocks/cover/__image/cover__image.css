@@ -9,10 +9,6 @@
   opacity: .7;
 }
 
-.cover__image:hover {
-  opacity: .2;
-}
-
 @media screen and (max-width: 1279px) {
   .cover__image {
     width: 768px;
