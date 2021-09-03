@@ -2,22 +2,27 @@
   grid-column: 1 / 4;
   grid-row: 1 /4;
   width: 1184px;
-  height: 740px;
+  min-height: 740px;
   padding: 0;
   background-image: url(../../../images/background.png);
   background-size: cover;
+  opacity: .7;
+}
+
+.cover__image:hover {
+  opacity: .2;
 }
 
 @media screen and (max-width: 1279px) {
   .cover__image {
     width: 768px;
-    height: 746px;
+    min-height: 746px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__image {
     width: 320px;
-    height: 254px;
+    min-height: 254px;
   }
 }
