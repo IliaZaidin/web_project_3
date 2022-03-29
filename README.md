@@ -5,4 +5,4 @@ designe specs and Figma, adaptive design, grid layout, developing interfaces for
 
 Technologies used: HTML, CSS.
 
-Link to the site: https://iliazaidin.github.io/web_project_3/index.html
+[Link to the page](https://iliazaidin.github.io/web_project_3/index.html)
